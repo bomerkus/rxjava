@@ -2,6 +2,6 @@ component_depth: 5
 languages:
 - java
 exclude:
-  - .*/src/perf/.*
-  - .*/gradle/.*
+- .*/src/perf/.*
+- .*/gradle/.*
 
