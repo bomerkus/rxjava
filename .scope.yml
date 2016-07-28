@@ -1,4 +1,4 @@
-component_depth: 3
+component_depth: 4
 languages:
 - java
 - name: java
@@ -6,6 +6,7 @@ languages:
     exclude:
       - .*/perf/java/rx/.*.java
       - .*/test/java/rx/.*.java
+      - .*/gradle/.*.java
   test:
     include:
       - .*/test/java/rx/.*.java
