@@ -1,6 +1,14 @@
 component_depth: 5
 languages:
 - java
+  production:
+    exclude:
+      - src/test/.*.java
+
+  test:
+    include:
+      - src/test/.*.java
+
 exclude:
 - .*/src/perf/.*
 - .*/gradle/.*
